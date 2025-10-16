@@ -1,0 +1,770 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_list_slider_6qbNfj": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_L9N3Tg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "forvaringsskap",
+            "title": "Skåp"
+          }
+        },
+        "featured_collection_J6hxH9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pallyftare",
+            "image": "shopify://shop_images/Pallyftarelangagafflar_2000kg_540x2500mm_boggi-poly_Gul_d556e78c-d910-40f8-864b-ca3acef95824.jpg",
+            "title": ""
+          }
+        },
+        "featured_collection_gxdACj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lyftbord",
+            "title": ""
+          }
+        },
+        "featured_collection_jQXtir": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hyllstall",
+            "title": ""
+          }
+        },
+        "featured_collection_GW3kAL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tippcontainer",
+            "image": "shopify://shop_images/Tippcontainerlatt_1100liter_600kg.jpg",
+            "title": "Tippkärl"
+          }
+        },
+        "featured_collection_4H9LzM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "manuella-arbetsbord",
+            "title": "Arbetsbord"
+          }
+        },
+        "featured_collection_jMA9xm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "arbetsplatsmattor",
+            "title": "Mattor"
+          }
+        },
+        "featured_collection_HwzPfD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kladskap",
+            "image": "shopify://shop_images/SittbankDubbelsektion1000-2000mmLjusgra3.png",
+            "title": "Klädförvaring"
+          }
+        },
+        "featured_collection_J6V8fx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "verkstadsskap",
+            "image": "shopify://shop_images/Verkstadsskap_komplettinredning.jpg",
+            "title": "Verkstad"
+          }
+        },
+        "featured_collection_NkFYeg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vagnar",
+            "image": "shopify://shop_images/KM_Your_Workmate_KM337__1024x768_bcd8379f-fb1f-4064-8e38-4673049de763.png",
+            "title": ""
+          }
+        },
+        "featured_collection_eBphH3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "utemiljo",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_L9N3Tg",
+        "featured_collection_J6hxH9",
+        "featured_collection_gxdACj",
+        "featured_collection_jQXtir",
+        "featured_collection_GW3kAL",
+        "featured_collection_4H9LzM",
+        "featured_collection_jMA9xm",
+        "featured_collection_HwzPfD",
+        "featured_collection_J6V8fx",
+        "featured_collection_NkFYeg",
+        "featured_collection_eBphH3"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "rounded_card_image": false,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "slideshow_q3U4Jn": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_JhU8hg": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/lastbil_totallager_1.jpg",
+            "background_mobile": "shopify://shop_images/lastbil_totallager_3.jpg",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": true
+          }
+        },
+        "slide_U9bPyj": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/Lager_totallager_1.jpg",
+            "background_mobile": "shopify://shop_images/Lager_totallager.jpg",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_JhU8hg",
+        "slide_U9bPyj"
+      ],
+      "settings": {
+        "container": "fixed",
+        "slide_height": "medium",
+        "show_controls": true,
+        "autoplay": true,
+        "autoplay_delay": 6,
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "banners_with_categories_jCekLr": {
+      "type": "banners-with-categories",
+      "blocks": {
+        "category_CXAgf7": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Forvaringsskap_totallager.jpg",
+            "heading": "Förvaringsskåp",
+            "link": "shopify://collections/forvaringsskap"
+          }
+        },
+        "category_WqtDEw": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/pallbassang_totallager.png",
+            "heading": "Uppsamlingskärl",
+            "link": "shopify://collections/uppsamlingskarl"
+          }
+        },
+        "category_wVX7WX": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/datorstolar.jpg",
+            "heading": "Kontorstolar",
+            "link": "shopify://collections/kontorstolar"
+          }
+        },
+        "category_yf6mh7": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Arbetsbord_totallager.jpg",
+            "heading": "Arbetsbord",
+            "link": "shopify://collections/arbetsbord"
+          }
+        },
+        "category_EcrkG8": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Verktygsvagnar_totallager.jpg",
+            "heading": "Verktygsvagnar",
+            "link": "shopify://collections/verkstadsforvaring"
+          }
+        },
+        "category_GzqQ4H": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/staplare_mijlo_1.png",
+            "heading": "Staplare",
+            "link": "shopify://collections/staplare"
+          }
+        },
+        "category_z3hBAX": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Arbetsplatsmatta.jpg",
+            "heading": "Arbetsplatsmattor",
+            "link": "shopify://collections/arbetsplatsmattor"
+          }
+        },
+        "category_kYVkiN": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Kladskap_tra_grona.jpg",
+            "heading": "Klädskåp",
+            "link": "shopify://collections/kladskap"
+          }
+        },
+        "category_aDmxPw": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Bordsvagn_1100x700x890mm_500kg_Bla1.png",
+            "heading": "Vagnar",
+            "link": "shopify://collections/vagnar"
+          }
+        },
+        "category_zAhNmN": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Stolar_totallager.jpg",
+            "heading": "Stolar",
+            "link": "shopify://collections/stolar"
+          }
+        },
+        "heading_4pA4EW": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        },
+        "banner_card_HLWUnJ": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Lyftbord_totallager_cc2361ae-d14a-42f9-bd76-affd69f360bd.jpg",
+            "image_mobile": "shopify://shop_images/Lyftbord_totallager_cc2361ae-d14a-42f9-bd76-affd69f360bd.jpg",
+            "image_overlay_opacity": 0,
+            "column_span": 3,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "standard",
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://collections/lyftbord",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Lyftbord",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": true
+          }
+        },
+        "banner_card_VRhmmE": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/datorstolar.jpg",
+            "image_overlay_opacity": 0,
+            "column_span": 1,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "fitted",
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://collections/kontorstolar",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Kontorstolar",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": true
+          }
+        },
+        "banner_card_LbPAaw": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Hitta_ratt_Omkladningsrumskap_for_er_14.png",
+            "image_mobile": "shopify://shop_images/Hitta_ratt_Omkladningsrumskap_for_er_14.png",
+            "image_overlay_opacity": 0,
+            "column_span": 1,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "fitted",
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://collections/pallyftare",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Pallyftare",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": true
+          }
+        },
+        "banner_card_6mMRq3": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Skarmbild_2025-06-17_180649.png",
+            "image_mobile": "shopify://shop_images/Skarmbild_2025-06-17_180649.png",
+            "image_overlay_opacity": 0,
+            "column_span": 1,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "fitted",
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://collections/tippcontainer",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Tippcontainer",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": true
+          }
+        }
+      },
+      "block_order": [
+        "category_CXAgf7",
+        "category_WqtDEw",
+        "category_wVX7WX",
+        "category_yf6mh7",
+        "category_EcrkG8",
+        "category_GzqQ4H",
+        "category_z3hBAX",
+        "category_kYVkiN",
+        "category_aDmxPw",
+        "category_zAhNmN",
+        "heading_4pA4EW",
+        "banner_card_HLWUnJ",
+        "banner_card_VRhmmE",
+        "banner_card_LbPAaw",
+        "banner_card_6mMRq3"
+      ],
+      "name": "t:sections.banners-with-categories.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "categories_bar_color_scheme": "scheme-10",
+        "columns_mobile": "2",
+        "columns": 3,
+        "gap": "2xs",
+        "banner_height": "medium",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "favorite_products_6Tg9Pn": {
+      "type": "favorite-products",
+      "blocks": {
+        "product_XrLWzM": {
+          "type": "product",
+          "settings": {
+            "color_scheme": "scheme-10",
+            "product": "hyllstall-quick-4-plan-2104x1050x400-800mm",
+            "image": "shopify://shop_images/Quickhylla1.jpg",
+            "text": "<p>Våra hyllställ är den perfekta lösningen för dig som behöver smart, stabil och flexibel förvaring. </p><p>Oavsett om du inreder ett lager, verkstad, kontor eller förråd, har vi hyllsystem som tål tuffa tag och håller ordning på dina prylar<br/></p>",
+            "text_size": "h4",
+            "author": "",
+            "bio": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_XrLWzM"
+      ],
+      "custom_css": [
+        ".testimonial__content {max-width: 46rem;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": "content-left",
+        "heading": "Hyllställ Quick",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "slide_height": "small",
+        "pcard_style": "boxed",
+        "pcard_image_ratio": "",
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_cards_HDmBi9": {
+      "type": "collection-cards",
+      "blocks": {
+        "collection_MVqXbf": {
+          "type": "collection",
+          "settings": {
+            "collection": "pallyftare",
+            "title": ""
+          }
+        },
+        "collection_qBR6Dq": {
+          "type": "collection",
+          "settings": {
+            "collection": "datorskap",
+            "title": ""
+          }
+        },
+        "collection_WDT3TE": {
+          "type": "collection",
+          "settings": {
+            "collection": "verkstadsskap",
+            "title": ""
+          }
+        },
+        "collection_aQJpKQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "industrimattor",
+            "title": ""
+          }
+        },
+        "collection_bmWRdG": {
+          "type": "collection",
+          "settings": {
+            "collection": "arbetsbord",
+            "title": ""
+          }
+        },
+        "collection_KcQWBG": {
+          "type": "collection",
+          "settings": {
+            "collection": "karror",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_MVqXbf",
+        "collection_qBR6Dq",
+        "collection_WDT3TE",
+        "collection_aQJpKQ",
+        "collection_bmWRdG",
+        "collection_KcQWBG"
+      ],
+      "name": "t:sections.collection-cards.presets",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Utvalda kategorier",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-inherit",
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "card_color_scheme": "",
+        "image_ratio": "3/4",
+        "show_product_count": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_RfLBdr": {
+      "type": "image-with-text",
+      "blocks": {
+        "badge_7U4zTK": {
+          "type": "badge",
+          "settings": {
+            "color_scheme": "",
+            "text": "TOTALLAGER - Vilka är vi på Totallager? -",
+            "image": "shopify://shop_images/Untitled_design_3.png",
+            "position_mobile": "right"
+          }
+        },
+        "subheading_p7Xj8b": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_iyGVhe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vilka är vi på Totallager?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_YCRxa4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Totallager.se </strong>grundades i Värnamo av två barndomsvänner med en tydlig vision – att göra det enklare för företag att köpa arbetsplatsutrustning med rätt kvalitet, till rätt pris.</p><p>Vi har rötterna i småländskt entreprenörskap och en stark tro på ärlig service, snabba leveranser och ett brett sortiment som möter arbetsvardagens behov.</p><p>När du handlar hos oss får du inte bara bra produkter, du får ett engagerat team som tar hand om din beställning från första klick till leverans.</p><p><br/><br/></p>",
+            "subtext_color": true
+          }
+        },
+        "button_aNdWYB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakta oss",
+            "button_link": "shopify://pages/kontakt",
+            "button_style": "btn--secondary",
+            "button_icon": "chat"
+          }
+        }
+      },
+      "block_order": [
+        "badge_7U4zTK",
+        "subheading_p7Xj8b",
+        "heading_iyGVhe",
+        "text_YCRxa4",
+        "button_aNdWYB"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design_98d62c1e-13d4-41aa-8cc7-f2955cc3258d.svg",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "featured_blog_mkdJqR": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Blogg inlägg",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Få tips genom våra blogginlägg.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "blog": "blogg",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "column_gap": "medium",
+        "row_gap": "large",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "card_title_size": "h4",
+        "show_tags": true,
+        "show_excerpt": false,
+        "show_date": true,
+        "show_author": true,
+        "show_button": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_HVfrje": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_bGxE9d": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Produkter och inredning för arbetsplatser och industrimiljöer",
+            "content": "<h4><strong>Vad är Totallager.se?</strong></h4><p>Totallager.se är en svensk B2B-butik specialiserad på lösningar för lager, verkstad och omklädningsrum. Vi levererar produkter som pallställ, hyllsystem, verkstadsinredning, arbetsbord, klädskåp och mycket mer – anpassade för professionell användning inom industri, bygg, logistik och offentlig sektor.<br/><br/>Utforska våra huvudkategorier:<br/><br/>– <a href=\"https://totallager.se/collections/lager-och-industri\">Lager och industri</a><br/><br/>– <a href=\"https://totallager.se/collections/verkstad\">Verkstad</a><br/><br/>– <a href=\"https://totallager.se/collections/omkladningsrum\">Omklädningsrum</a></p><h4><strong>Hur snabbt levererar Totallager?</strong></h4><p>Vi erbjuder snabba leveranser – normalt inom 1–3 arbetsdagar för lagervaror. Leveranstiden står tydligt angiven på varje produkt. För större projekt eller beställningar med många artiklar kan vi även hjälpa till att planera leveransen.<br/><br/>Se hela vårt utbud för:<br/><br/>– <a href=\"https://totallager.se/collections/lager-och-industri\">Lager och industri</a><br/><br/>– <a href=\"https://totallager.se/collections/verkstad\">Verkstad</a></p><h4><strong>Vad ingår i ert sortiment för verkstad?</strong></h4><p>I vår verkstadskategori hittar du ett komplett utbud av produkter för professionella miljöer. Det inkluderar arbetsbord, förvaringsskåp, verktygsvagnar, hurtsar, verkstadshyllor och annan robust inredning.<br/><br/>Vår <a href=\"https://totallager.se/collections/verkstad\">verkstadsinredning</a> är utvald för att tåla daglig användning i krävande miljöer.</p><h4><strong>Erbjuder ni lösningar för omklädningsrum?</strong></h4><p>Ja. Vi erbjuder klädskåp, sittbänkar, torkskåp, skoställ och annan utrustning för omklädningsrum och personalutrymmen. Våra produkter används av företag, skolor, industrier och idrottsanläggningar.<br/><br/>Se hela sortimentet här: <a href=\"https://totallager.se/collections/omkladningsrum\">Omklädningsrum</a></p><h4><strong>Hur kontaktar jag er eller får en offert?</strong></h4><p>Du når oss enkelt via telefon på <strong>0370-340040</strong> eller via e-post till <a>info@totallager.se</a>. Vi hjälper gärna till med offert, produktval eller projektrådgivning – oavsett om du ska bygga nytt, renovera ett lager eller inreda ett omklädningsrum.<br/><br/>Utforska gärna våra kollektioner:<br/><br/>– <a href=\"https://totallager.se/collections/lager-och-industri\">Lager och industri</a><br/><br/>– <a href=\"https://totallager.se/collections/verkstad\">Verkstad</a><br/><br/>– <a href=\"https://totallager.se/collections/omkladningsrum\">Omklädningsrum</a></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_bGxE9d"
+      ],
+      "name": "t:sections.collapsible-tabs.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h4",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "collection_list_slider_6qbNfj",
+    "slideshow_q3U4Jn",
+    "banners_with_categories_jCekLr",
+    "favorite_products_6Tg9Pn",
+    "collection_cards_HDmBi9",
+    "image_with_text_RfLBdr",
+    "featured_blog_mkdJqR",
+    "collapsible_tabs_HVfrje"
+  ]
+}

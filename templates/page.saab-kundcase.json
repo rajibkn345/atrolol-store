@@ -1,0 +1,157 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "left",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_content_LfA78G": {
+      "type": "custom-content",
+      "blocks": {
+        "image_D6j8Ld": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAAB_TrackFire_241019_0235.png",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_4xBMJn": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<h2>SAAB valde Totallager som leverantör</h2><p>När en av Sveriges största industrikoncerner behövde uppgradera sina anläggningar, valde de Totallager. Med fokus på kvalitet, hållbarhet och flexibilitet levererade Totallager moderna och funktionella lösningar som mötte de högt ställda kraven.</p><h3>Kvalitet och funktion i fokus</h3><p>När en av Sveriges största industrikoncerner behövde förbättra sina arbetsmiljöer, valde de Totallager. Företaget, känt för sina avancerade lösningar inom försvars- och flygindustrin, ställer höga krav på sina samarbetspartners. Totallager levererade en lösning som mötte dessa krav, med fokus på att skapa en funktionell och hållbar arbetsmiljö.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_D6j8Ld",
+        "text_4xBMJn"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_rFW4VQ": {
+      "type": "custom-content",
+      "blocks": {
+        "image_b9HxeP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Saab_HMS_Halland_launch_250213_9005_0003.png",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_8ArWJz": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "center",
+            "subheading": "",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<h2>En investering i arbetsmiljön</h2><p><br/>För SAAB är detta en viktig investering i sina anställda. Genom att prioritera arbetsmiljö och trivsel visar företaget att de värdesätter sina medarbetare. Med Totallagers expertis blev detta möjligt på ett kostnadseffektivt och hållbart sätt. Totallager fortsätter att erbjuda lösningar till företag över hela Sverige.</p><p>Vill du också förbättra din arbetsmiljö? Kontakta Totallager för att hitta den bästa lösningen för din verksamhet!</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_b9HxeP",
+        "text_8ArWJz"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_content_LfA78G",
+    "custom_content_rFW4VQ"
+  ]
+}

@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_JgGYm6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nFDHPd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Professionellt montage av olika lagerlösningar",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_EyJcqW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Genom att erbjuda helhetslösningar från planering till färdigställande, ser vi till att varje projekt genomförs med högsta kvalitet och precision.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nFDHPd",
+        "text_EyJcqW"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_7DmWKP": {
+      "type": "custom-content",
+      "blocks": {
+        "image_TBFRVi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Totallager_montage.jpg",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_CLwFUc": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<h2>Montering av lagerinredning</h2><p>Hos <a href=\"https://www.totallager.se/\" title=\"https://www.totallager.se\"><strong>Totallager</strong></a> erbjuder vi professionell montering av lagerinredning för att optimera ditt lagringsutrymme. Vårt erfarna team monterar <a href=\"https://totallager.se/collections/hyllor\" title=\"Hyllor\">hyllställ</a>, lagerhyllor och skräddarsydda förvaringslösningar, anpassade efter dina behov. Vi säkerställer korrekt och säker installation, vilket sparar tid och ökar effektiviteten i ditt lager. Våra lösningar är både hållbara och funktionella, vilket förbättrar din lagerhantering. <a href=\"https://totallager.se/pages/kontakt\" title=\"Kontakt\"><strong>Kontakta oss</strong></a> för snabb och pålitlig montering – vi gör ditt lager mer organiserat och effektivt!</p><h2>Monteringshjälp?</h2><p>Hos <strong>Totallager</strong> erbjuder vi professionell montering av nätväggar, pallställ, industriskydd, <a href=\"https://totallager.se/pages/grenstall\" title=\"Grenstall\">grenställ </a>och arbetsplatsutrustning för att optimera din arbetsplats och lagerhantering. Vårt erfarna team säkerställer korrekt installation för att förbättra både säkerhet och effektivitet. Vi monterar nätväggar för att skapa säkra avdelningar, <a href=\"https://totallager.se/collections/pallstall\" title=\"Pallställ\">pallställ</a> för effektiv förvaring, <a href=\"https://totallager.se/collections/pakorningsskydd\" title=\"Påkörningsskydd\">industriskydd</a> för att skydda personal och utrustning, samt grenställ för bättre organisering av varor. Dessutom erbjuder vi montering av arbetsplatsutrustning som gör arbetsflödet smidigare och säkrare. <a href=\"https://totallager.se/pages/kontakta-oss\" title=\"Kontakta oss\"><strong>Kontakta Totallager</strong></a> för pålitlig och snabb montering av skräddarsydda lösningar för ditt lager och arbetsmiljö!</p>",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TBFRVi",
+        "text_CLwFUc"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JgGYm6",
+    "custom_content_7DmWKP"
+  ]
+}

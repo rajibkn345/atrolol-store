@@ -1,0 +1,652 @@
+<style>
+  .meta-table{
+    width:100%;
+    margin:0 ;
+    padding:0!important;
+    margin-top:20px;
+    border:none;
+    background:#fff;
+    border-collapse: separate; /* Important: must be separate, not collapse */
+    border-spacing: 5px;
+  }
+  .tbody{
+    width:100%;
+    margin:0!important;
+    padding:0!important;
+  }
+  .meta-table td{
+    border:none;
+    padding:  4px 8px !important;
+
+  }
+  .meta-table tr:nth-child(odd) td{
+    background-color:#eaeaea;
+  }
+  .meta-table tr td:first-child{
+    width:160px;
+  }
+  .meta-table tr{
+    gap:2px !important;
+  }
+  .mob-only{
+    display:none;
+  }
+   @media screen and (min-width:768px){
+   .meta-table{
+     margin-top:40px;
+   }
+   }
+  @media screen and (max-width:767px){
+    .desk-only{
+      display:none;
+    }
+    .mob-only{
+      display:block;
+    }
+  }
+</style>
+<h2>Ytterligare information</h2>
+<table class="meta-table" style="margin-top:20px;">
+  <tbody>
+    {% comment %} All metafields from the images {% endcomment %}
+    {% if product.metafields.custom.langd %}
+      <tr>
+        <td>Längd</td>
+        <td>{{ product.metafields.custom.langd.value }}</td>
+      </tr>
+    {% endif %}
+    {% if product.metafields.custom.bredd2 %}
+      <tr>
+        <td class="metafield-label">Bredd</td>
+        <td class="metafield-value">{{ product.metafields.custom.bredd2.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd1 %}
+      <tr>
+        <td>Höjd</td>
+        <td>{{ product.metafields.custom.h_jd1.value }}</td>
+      </tr>
+    {% endif %}
+    {% if product.metafields.custom.teknisk_data %}
+      <tr>
+        <td class="metafield-label">Teknisk data</td>
+        <td class="metafield-value">{{ product.metafields.custom.teknisk_data }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.djup %}
+      <tr>
+        <td>Djup</td>
+        <td>{{ product.metafields.custom.djup.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.material %}
+      <tr>
+        <td>Material</td>
+        <td>{{ product.metafields.custom.material }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.kapacitet_hyllplan %}
+      <tr>
+        <td>Kapacitet / hyllplan</td>
+        <td>{{ product.metafields.custom.kapacitet_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.antal_hyllplan %}
+      <tr>
+        <td>Antal hyllplan</td>
+        <td>{{ product.metafields.custom.antal_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.synf_lt %}
+      <tr>
+        <td>Synfält</td>
+        <td>{{ product.metafields.custom.synf_lt }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.vikt %}
+      <tr>
+        <td>Vikt</td>
+        <td>{{ product.metafields.custom.vikt.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.sitsens_bredd %}
+      <tr>
+        <td>Sitsens bredd</td>
+        <td>{{ product.metafields.custom.sitsens_bredd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.varum_rke %}
+      <tr>
+        <td>Varumärke</td>
+        <td>{{ product.metafields.custom.varum_rke }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields['mm-google-shopping'].custom_product %}
+      <tr>
+        <td>Google: Custom Product</td>
+        <td>{{ product.metafields['mm-google-shopping'].custom_product }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.produkt_ikoner %}
+      <tr>
+        <td>Produkt ikoner</td>
+        <td>{{ product.metafields.custom.produkt_ikoner }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.st_llbarhet %}
+      <tr>
+        <td>Ställbarhet</td>
+        <td>{{ product.metafields.custom.st_llbarhet }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.sitsens_djup %}
+      <tr>
+        <td>Sitsens djup</td>
+        <td>{{ product.metafields.custom.sitsens_djup }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.ryggens_h_jd %}
+      <tr>
+        <td>Ryggens höjd</td>
+        <td>{{ product.metafields.custom.ryggens_h_jd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.ryggens_bredd %}
+      <tr>
+        <td>Ryggens bredd</td>
+        <td>{{ product.metafields.custom.ryggens_bredd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.diameter %}
+      <tr>
+        <td>Diameter</td>
+        <td>{{ product.metafields.custom.diameter }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.m_tt_lxbxh %}
+      <tr>
+        <td>Mått LxBxH</td>
+        <td>{{ product.metafields.custom.m_tt_lxbxh }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.ljudniv_4m %}
+      <tr>
+        <td>Ljudnivå 4m</td>
+        <td>{{ product.metafields.custom.ljudniv_4m }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.s_kring_tr_g_ %}
+      <tr>
+        <td>Säkring(Trög)</td>
+        <td>{{ product.metafields.custom.s_kring_tr_g_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.el_ansl_.value %}
+      <tr>
+        <td>El ansl.</td>
+        <td>{{ product.metafields.custom.el_ansl_.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.tankstorlek %}
+      <tr>
+        <td>Tankstorlek</td>
+        <td>{{ product.metafields.custom.tankstorlek.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.motoreffekt %}
+      <tr>
+        <td>Motoreffekt</td>
+        <td>{{ product.metafields.custom.motoreffekt.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.max_arb_tryck %}
+      <tr>
+        <td>Max arb.tryck</td>
+        <td>{{ product.metafields.custom.max_arb_tryck.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.fri_avg_luft_vid_6_bar_ %}
+      <tr>
+        <td>Fri avg luft (vid 6 bar)</td>
+        <td>{{ product.metafields.custom.fri_avg_luft_vid_6_bar_.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.genomlupen_cylindervolym %}
+      <tr>
+        <td>Genomlupen cylindervolym</td>
+        <td>{{ product.metafields.custom.genomlupen_cylindervolym.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.temperaturbest_ndighet %}
+      <tr>
+        <td>Temperaturbeständighet</td>
+        <td>{{ product.metafields.custom.temperaturbest_ndighet }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.avdelare_per_l_da %}
+      <tr>
+        <td>Avdelare per låda</td>
+        <td>{{ product.metafields.custom.avdelare_per_l_da }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.antal_kartong %}
+      <tr>
+        <td>Antal/kartong</td>
+        <td>{{ product.metafields.custom.antal_kartong }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.tillb %}
+      <tr>
+        <td>TillB</td>
+        <td>{{ product.metafields.custom.tillb }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields['shopify--discovery--product_search_boost'].queries %}
+      <tr>
+        <td>Search product boosts</td>
+        <td>{{ product.metafields['shopify--discovery--product_search_boost'].queries.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.bandtjocklek %}
+      <tr>
+        <td>Bandtjocklek</td>
+        <td>{{ product.metafields.custom.bandtjocklek }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.bandbredd %}
+      <tr>
+        <td>Bandbredd</td>
+        <td>{{ product.metafields.custom.bandbredd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.dragstyrka_i_n_ %}
+      <tr>
+        <td>Dragstyrka (i N)</td>
+        <td>{{ product.metafields.custom.dragstyrka_i_n_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.batteri %}
+      <tr>
+        <td>Batteri</td>
+        <td>{{ product.metafields.custom.batteri }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.plattformsm_tt %}
+      <tr>
+        <td>Plattformsmått</td>
+        <td>{{ product.metafields.custom.plattformsm_tt }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.plattformsh_jd %}
+      <tr>
+        <td>Plattformshöjd</td>
+        <td>{{ product.metafields.custom.plattformsh_jd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.tjocklek %}
+      <tr>
+        <td>Tjocklek</td>
+        <td>{{ product.metafields.custom.tjocklek }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.antal %}
+      <tr>
+        <td>Antal</td>
+        <td>{{ product.metafields.custom.antal }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.bandtyp %}
+      <tr>
+        <td>Bandtyp</td>
+        <td>{{ product.metafields.custom.bandtyp }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.pp_bandbredd %}
+      <tr>
+        <td>PP bandbredd</td>
+        <td>{{ product.metafields.custom.pp_bandbredd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.sitth_jd %}
+      <tr>
+        <td>Sitthöjd</td>
+        <td>{{ product.metafields.custom.sitth_jd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.maxbelastning_l_da %}
+      <tr>
+        <td>Maxbelastning låda</td>
+        <td>{{ product.metafields.custom.maxbelastning_l_da }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.antal_l_dor %}
+      <tr>
+        <td>Antal lådor</td>
+        <td>{{ product.metafields.custom.antal_l_dor }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.gaffelh_jd_tjocklek %}
+      <tr>
+        <td>Gaffelhöjd / tjocklek</td>
+        <td>{{ product.metafields.custom.gaffelh_jd_tjocklek.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.gaffelbredd_mm_ %}
+      <tr>
+        <td>Gaffelbredd</td>
+        <td>{{ product.metafields.custom.gaffelbredd_mm_.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.gaffell_ngd_mm_ %}
+      <tr>
+        <td>Gaffellängd</td>
+        <td>{{ product.metafields.custom.gaffell_ngd_mm_.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.maxbelastning_hyllplan_ %}
+      <tr>
+        <td>Maxbelastning hyllplan</td>
+        <td>{{ product.metafields.custom.maxbelastning_hyllplan_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.elektronik_motor %}
+      <tr>
+        <td>Elektronik / Motor</td>
+        <td>{{ product.metafields.custom.elektronik_motor }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.hjuldata %}
+      <tr>
+        <td>Hjuldata</td>
+        <td>{{ product.metafields.custom.hjuldata.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.f_rg_p_d_rr %}
+      <tr>
+        <td>Färg på dörr</td>
+        <td>{{ product.metafields.custom.f_rg_p_d_rr }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.sekund_r_f_rg_text_ %}
+      <tr>
+        <td>Sekundär färg (text)</td>
+        <td>{{ product.metafields.custom.sekund_r_f_rg_text_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.prim_r_f_rg_text_ %}
+      <tr>
+        <td>Primär färg (text)</td>
+        <td>{{ product.metafields.custom.prim_r_f_rg_text_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd_min_ %}
+      <tr>
+        <td>Höjd min.</td>
+        <td>{{ product.metafields.custom.h_jd_min_.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.tak %}
+      <tr>
+        <td>Tak</td>
+        <td>{{ product.metafields.custom.tak }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.antal_sektioner %}
+      <tr>
+        <td>Antal sektioner</td>
+        <td>{{ product.metafields.custom.antal_sektioner }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.antal_d_rrar %}
+      <tr>
+        <td>Antal dörrar</td>
+        <td>{{ product.metafields.custom.antal_d_rrar }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.f_rg_d_rr %}
+      <tr>
+        <td>Färg dörr</td>
+        <td>{{ product.metafields.custom.f_rg_d_rr.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.sektionsbredd %}
+      <tr>
+        <td>Sektionsbredd</td>
+        <td>{{ product.metafields.custom.sektionsbredd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.f_rdjupad_text_spalt_3_ %}
+      <tr>
+        <td>Fördjupad text (spalt 3)</td>
+        <td>{{ product.metafields.custom.f_rdjupad_text_spalt_3_.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.f_rdjupad_text_spalt_2_ %}
+      <tr>
+        <td>Fördjupad text (spalt 2)</td>
+        <td>{{ product.metafields.custom.f_rdjupad_text_spalt_2_.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.f_rdjupad_beskrivning %}
+      <tr>
+        <td>Fördjupad beskrivning</td>
+        <td>{{ product.metafields.custom.f_rdjupad_beskrivning.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd_till_fj_rde_hyllplan %}
+      <tr>
+        <td>Höjd till fjärde hyllplan</td>
+        <td>{{ product.metafields.custom.h_jd_till_fj_rde_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd_till_tredje_hyllplan %}
+      <tr>
+        <td>Höjd till tredje hyllplan</td>
+        <td>{{ product.metafields.custom.h_jd_till_tredje_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd_till_andra_hyllplan %}
+      <tr>
+        <td>Höjd till andra hyllplan</td>
+        <td>{{ product.metafields.custom.h_jd_till_andra_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd_till_f_rsta_hyllplan %}
+      <tr>
+        <td>Höjd till första hyllplan</td>
+        <td>{{ product.metafields.custom.h_jd_till_f_rsta_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd_till_vre_hyllplan %}
+      <tr>
+        <td>Höjd till övre hyllplan</td>
+        <td>{{ product.metafields.custom.h_jd_till_vre_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.avst_nd_mellan_hyllplan %}
+      <tr>
+        <td>Avstånd mellan hyllplan</td>
+        <td>{{ product.metafields.custom.avst_nd_mellan_hyllplan }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.hyllm_tt_bredd %}
+      <tr>
+        <td>Hyllmått bredd</td>
+        <td>{{ product.metafields.custom.hyllm_tt_bredd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.hyllm_tt_l_ngd %}
+      <tr>
+        <td>Hyllmått längd</td>
+        <td>{{ product.metafields.custom.hyllm_tt_l_ngd }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.tillbeh_r %}
+      <tr>
+        <td>Tillbehör</td>
+        <td>{{ product.metafields.custom.tillbeh_r }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.sekund_r_f_rg %}
+      <tr>
+        <td>Sekundär färg</td>
+        <td>{{ product.metafields.custom.sekund_r_f_rg }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.prim_r_f_rg %}
+      <tr>
+        <td>Primär färg</td>
+        <td>{{ product.metafields.custom.prim_r_f_rg }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.dynamisk_belastning %}
+      <tr>
+        <td>Dynamisk belastning</td>
+        <td>{{ product.metafields.custom.dynamisk_belastning }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.maxlast %}
+      <tr>
+        <td>Maxlast</td>
+        <td>{{ product.metafields.custom.maxlast.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.maska %}
+      <tr>
+        <td>Maska</td>
+        <td>{{ product.metafields.custom.maska }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.avst_nd_mellan_byglar %}
+      <tr>
+        <td>Avstånd mellan byglar</td>
+        <td>{{ product.metafields.custom.avst_nd_mellan_byglar }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.innem_tt_h_jd_ %}
+      <tr>
+        <td>Innemått (Höjd)</td>
+        <td>{{ product.metafields.custom.innem_tt_h_jd_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.innem_tt_bredd_ %}
+      <tr>
+        <td>Innemått (Bredd)</td>
+        <td>{{ product.metafields.custom.innem_tt_bredd_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.innem_tt_l_ngd_ %}
+      <tr>
+        <td>Innemått (längd)</td>
+        <td>{{ product.metafields.custom.innem_tt_l_ngd_ }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.h_jd_handtag %}
+      <tr>
+        <td>Höjd handtag</td>
+        <td>{{ product.metafields.custom.h_jd_handtag }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.kapacitet %}
+      <tr>
+        <td>Kapacitet</td>
+        <td>{{ product.metafields.custom.kapacitet.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom.farg %}
+      <tr>
+        <td>Färg</td>
+        <td>{{ product.metafields.custom.farg.value }}</td>
+      </tr>
+    {% endif %}
+
+    {% if product.metafields.custom._vriga_m_tt %}
+      <tr>
+        <td>Övriga mått</td>
+        <td>{{ product.metafields.custom._vriga_m_tt }}</td>
+      </tr>
+    {% endif %}
+  </tbody>
+</table>

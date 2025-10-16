@@ -1,0 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "custom_liquid_nX7EQH": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "custom_liquid": "<!-- Announcement Bar -->\n<div class=\"announcement-bar\" style=\"background: #f4f4f4; text-align: center; padding: 10px 0;\">\n  <p id=\"announcement-text\" style=\"margin: 0; font-weight: bold;\">\n    🚚 Fri frakt över 15000 kr!\n  </p>\n</div>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    const messages = [\n      \"🚚 Fri frakt över 15000 kr!\",\n      \"📞 Kundsupport: 0370-340040\",\n      \"📦 Snabba leveranser inom 1–3 dagar!\"\n    ];\n    let index = 0;\n    const textElement = document.getElementById(\"announcement-text\");\n\n    setInterval(() => {\n      index = (index + 1) % messages.length;\n      textElement.textContent = messages[index];\n    }, 5000);\n  });\n</script>",
+        "color_scheme": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "custom_link_YJhwTg": {
+          "type": "custom_link",
+          "settings": {
+            "label": "Hitta oss!",
+            "link": "shopify://pages/kontakta-oss",
+            "icon": "location",
+            "icon_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "custom_link_YJhwTg"
+      ],
+      "custom_css": [
+        ".product-card__info {--pcard-info-gap: 1.2rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "menu": "main-menu",
+        "menu_mobile": "",
+        "header_layout": "logo-left",
+        "menu_trigger": "hover",
+        "sticky_header": "none",
+        "enable_collapse_on_scroll": true,
+        "show_sperator_line": true,
+        "show_social_media_icons": true,
+        "enable_language_selector": false,
+        "enable_country_selector": false,
+        "header_top_padding_top": 20,
+        "header_top_padding_bottom": 20,
+        "navigation_color_scheme": "",
+        "navigation_content_alignment": "start",
+        "navigation_padding_top": 0,
+        "navigation_padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_nX7EQH",
+    "header"
+  ]
+}

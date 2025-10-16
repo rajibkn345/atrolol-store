@@ -1,0 +1,118 @@
+
+.cw-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1e4355;
+  color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 0px;
+  line-height: 34px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 33px;
+  padding-right: 22px;
+  border-radius: 40px;
+  letter-spacing: 0.5px;
+}
+
+.cw-slider:before {
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transform: translateX(78px);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.cw-switch {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 32px;
+}
+
+.global-vat-exc .cw-slider {
+  background-color: #ebebeb;
+  color: #333;
+  padding-right: 0;
+  padding-left: 20px;
+  border-radius: 40px;
+}
+
+.global-vat-exc .cw-slider:before {
+  transform: none;
+}
+
+.global-vat-inc .cw-slider {
+  background: #1e4355;
+  color: white;
+  padding-right: 20px;
+  padding-left: 0;
+  border-radius: 40px;
+}
+
+.global-vat-inc .cw-slider:before {
+  transform: translateX(78px);
+}
+
+#c-vat-wrap {
+  padding-top: 5px;
+  padding-inline: 6px;
+  margin-right: 12px;
+}
+
+@media (max-width: 767px) {
+  #c-vat-wrap {
+    padding-inline: 0;
+    margin-right: 12px;
+  }
+
+  #js-vat-btn {
+    width: 55px;
+    height: 28px;
+    font-size: 0;
+  }
+
+  .cw-slider:before {
+    transform: translateX(22px);
+    content: "moms";
+    font-size: 9px;
+    color: black;
+    line-height: 26px;
+    width: 22px;
+    height: 20px;
+    font-weight: 500;
+  }
+}
+
+/* VAT Label Styling */
+.vat-label-pp {
+  font-size: 0.8em;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+/* Price transition for smooth VAT toggle */
+.vat-price-display {
+  transition: opacity 0.2s ease;
+}
+
+/* Ensure proper spacing for VAT labels */
+.f-price .vat-label-pp {
+  font-weight: normal;
+  color: inherit;
+}
+

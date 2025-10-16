@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_RzgTi9": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "collapsible_tabs_phAkEE": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_grWd8w": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Frakt och returer",
+            "heading": "Här hittar du vanliga frågor om frakt, returer och byten.",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_TJLChi": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Hur lång tid tar det att behandla min beställning?",
+            "content": "<p>Behandlingstiden för din beställning beror på ordervolymen och specifika krav. Vanligtvis behandlar vi order inom 1-2 dagar.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_KhUxbM": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kan jag schemalägga en leverans vid en specifik tidpunkt?",
+            "content": "<p>Ja, vi kan arrangera leveranser på specifika tider eller datum om det behövs. Kontakta oss för att diskutera dina behov så kan vi hitta en lösning som passar dig.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_n78gVi": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Vad gör jag om jag inte har fått min beställning?",
+            "content": "<p>Om du inte har fått din beställning inom den förväntade leveranstiden, vänligen kontakta vår kundservice på 0370-340040 eller info@totallager.se, så hjälper vi dig att spåra försändelsen.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_PPefFd": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Hur gör jag en beställning hos Totallager Sweden AB?",
+            "content": "<p>Du kan göra en beställning genom vår e-handel. Alternativt kan du kontakta oss direkt via telefon på 0370-340040 eller e-post på info@totallager.se.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_grWd8w",
+        "collapsible_item_TJLChi",
+        "collapsible_item_KhUxbM",
+        "collapsible_item_n78gVi",
+        "collapsible_item_PPefFd"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "small",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_hBEiYB": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_r7Lc7A": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Order hantering",
+            "heading": "Här hittar du vanliga frågor om order hantering.",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_EPtxMc": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kan jag göra ändringar i min order efter att jag har lagt den?",
+            "content": "<p>Om du behöver göra ändringar i din order, vänligen kontakta oss så snart som möjligt. Vi kommer att göra vårt bästa för att tillgodose ändringar innan ordern har skickats.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_yLq86G": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kan jag följa statusen för min order?",
+            "content": "<p>Ja, du kan följa statusen för din order genom att logga in på ditt konto på vår hemsida eller via den spårningslänk som skickas till dig efter att ordern har behandlats.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_DGi3rB": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Hur kan jag avbryta min order?",
+            "content": "<p>Om du vill avbryta din order, kontakta oss omgående. Om ordern ännu inte har behandlats eller skickats kan vi vanligtvis avbryta den utan problem. Om ordern redan har skickats kan vi behöva hantera det som en retur.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_e3AFh9": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Hur hanterar ni försenade order?",
+            "content": "<p>Om din order blir försenad kommer vi att informera dig så snart vi är medvetna om förseningen och ge dig en ny uppskattad leveranstid. Du kan också kontakta oss om du har frågor om statusen på din order.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_r7Lc7A",
+        "collapsible_item_EPtxMc",
+        "collapsible_item_yLq86G",
+        "collapsible_item_DGi3rB",
+        "collapsible_item_e3AFh9"
+      ],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_qwFcff": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_dqyYMq": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Våra tjänster",
+            "heading": "Här hittar du vanliga frågor om våra tjänster på Totallager.",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_MmXRTz": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Erbjuder ni anpassade logistiklösningar?",
+            "content": "<p>Ja, vi förstår att varje företag har unika behov, och vi erbjuder därför skräddarsydda logistiklösningar. Kontakta oss för att diskutera hur vi kan anpassa våra tjänster för att bäst stödja din verksamhet.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_tWNUeL": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Erbjuder ni montering av produkter efter leverans?",
+            "content": "<p>Ja, vi erbjuder monteringstjänster där vi kan montera produkter enligt dina specifikationer efter de levereras till dig. Detta sparar tid och säkerställer att produkterna är redo att användas direkt.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_WdQxcf": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Vilka typer av företag arbetar ni med?",
+            "content": "<p>Vi arbetar med företag inom en mängd olika branscher, inklusive e-handel, tillverkning, och detaljhandel. Våra tjänster är flexibla och kan anpassas för att möta behoven hos både små och stora företag.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dqyYMq",
+        "collapsible_item_MmXRTz",
+        "collapsible_item_tWNUeL",
+        "collapsible_item_WdQxcf"
+      ],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_RzgTi9",
+    "main",
+    "collapsible_tabs_phAkEE",
+    "collapsible_tabs_hBEiYB",
+    "collapsible_tabs_qwFcff"
+  ]
+}

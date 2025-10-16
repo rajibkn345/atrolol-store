@@ -1,0 +1,204 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_JgGYm6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nFDHPd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Helhetsleverantör av lösningar för ert företag</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_EyJcqW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vi på Totallager erbjuder helhetslösningar för att optimera din arbetsplats och skapa en trygg och välorganiserad miljö.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nFDHPd",
+        "text_EyJcqW"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "multicolumn_QMCciF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DF3LaA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Totallager_montage_2.jpg",
+            "title": "Montage",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "Läs mer här",
+            "button_link": "shopify://pages/montage",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_e7Fqit": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Totallager_hyllstall_26d596fe-a095-414b-972f-20b3d654046e.jpg",
+            "title": "Hyllställ",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "Läs mer här",
+            "button_link": "shopify://pages/hyllstall",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_Umdky7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Totallager_grenstall_3.jpg",
+            "title": "Grenställ",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "Läs mer här",
+            "button_link": "shopify://pages/grenstall",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_gAwWbn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pallstall_totallager.jpg",
+            "title": "Pallställ",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "Läs mer här",
+            "button_link": "shopify://pages/pallstall",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_yLMdQp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Entresol_3.jpg",
+            "title": "Entresol",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "Läs mer här",
+            "button_link": "shopify://pages/entresol",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_DF3LaA",
+        "column_e7Fqit",
+        "column_Umdky7",
+        "column_gAwWbn",
+        "column_yLMdQp"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Våra tjänster",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "content_alignment": "left",
+        "show_col_count": false,
+        "show_image": true,
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JgGYm6",
+    "multicolumn_QMCciF"
+  ]
+}

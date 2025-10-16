@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "left",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_93GUaB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FriUDU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Entresol - brist på utrymme?</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_nMrWRN": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FriUDU",
+        "text_nMrWRN"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_F9ntXh": {
+      "type": "custom-content",
+      "blocks": {
+        "image_dgkL8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entresol_miljo.jpg",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_UnaW3z": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "Maximera er lageryta utan bygglov",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<h2>Maximera er lageryta utan bygglov</h2><p>Det finns några alternativ som löser företagets problem. Bygga nytt, bygga ut eller flytta till en större lokal. Lösningarna ovan är både dyra, att sköta logistien vid en flytt är en mardröm och stänga ner produktionen är inget alternativ. Ett entresolplan från Totallager är bästa lösningen för er!</p><p>Fördelarna är många:‍<br/></p><ul><li>Det krävs inget bygglov för att installera ett entresolplan vilket gör det till en oerhört smidig och prisvärd lösning.‍</li><li>Kort leveranstid och montage tar enbart några dagar.‍</li><li>Utöka lagerytan till följd av en liten investering.‍</li><li>Maximera volymen på lagret.‍<br/>Kan användas som kontor eller showroom.‍</li></ul><p><br/>‍I alla offerter ingår en ritning för att få en så bra överblick som möjligt av entresolplanets funktion. Lätt för dig som kund att komma med förslag på pelarplacering, grindplacering och trappans placering.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dgkL8b",
+        "text_UnaW3z"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_CMACzJ": {
+      "type": "custom-content",
+      "blocks": {
+        "image_Q9haGP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entresol_3.jpg",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_NNRKag": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "Optimera golvyta - Enkelt!",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<h2>Optimera golvyta - Enkelt!</h2><p>Maximera din yta med en entresolplan! Få extra golvyta utan ombyggnad – idealiskt för lager, kontor eller butikslokaler. Våra skräddarsydda entresolplaner är stabila, kostnadseffektiva och enkla att installera. Skapa ett smartare och rymligare utrymme med en entresolplan från <a href=\"https://www.totallager.se/\" title=\"https://www.totallager.se\">Totallager!</a></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Q9haGP",
+        "text_NNRKag"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_93GUaB",
+    "custom_content_F9ntXh",
+    "custom_content_CMACzJ"
+  ]
+}

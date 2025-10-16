@@ -1,0 +1,601 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "@media (min-width: 1280px) {.breadcrumbs {padding-inline: 5rem; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "show_soldout_badge": true,
+            "show_sale_badge": true,
+            "sale_badge_type": "fixed_amount"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "meta": {
+          "type": "meta",
+          "settings": {
+            "link_color": "#d85c1e",
+            "show_vendor": false,
+            "show_product_type": true,
+            "show_sku": true,
+            "show_barcode": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "icon_with_text": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body-bolder",
+            "title_size": "text-base",
+            "icon_1": "clock",
+            "heading_1": "30 dagars faktura",
+            "icon_2": "check",
+            "heading_2": "Handla som privatperson, företag eller kommun/region",
+            "icon_3": "arrow-up-left",
+            "heading_3": ""
+          }
+        },
+        "shipping_PtMMxw": {
+          "type": "shipping",
+          "settings": {
+            "deliver_text": "🟢 Beräknad leverans:",
+            "deliver_days": "3",
+            "date_format": "%d %b"
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 0,
+            "show_inventory_quantity": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_type": "color_swatch",
+            "swatch_style": "circle",
+            "swatch_size": 32,
+            "button_style": "normal",
+            "size_title": "Size",
+            "size_chart_from_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "icon_with_text_UAYgQU": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "arrow-up-left",
+            "heading_1": "30 dagar returrätt",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/Flag_of_Sweden_svg.webp",
+            "heading_2": "Svensk support & trygg e-handel",
+            "icon_3": "check",
+            "heading_3": "5 års garanti"
+          }
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Tillbehör",
+            "heading_size": "h5",
+            "show_below_product_media": true,
+            "make_collapsible_row": false,
+            "icon": "tag",
+            "product_list_limit": 6,
+            "layout": "grid",
+            "columns": 3,
+            "image_ratio": "adapt",
+            "enable_quick_add": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "promotion_alert_L7ipQp": {
+          "type": "promotion_alert",
+          "settings": {
+            "text_color": "#049b6e",
+            "icon": "package",
+            "heading": "Fri Frakt!",
+            "description": "<p>Lägg över 15000kr i varukorgen för att få gratis frakt.</p>"
+          }
+        },
+        "payment_info": {
+          "type": "payment_info",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "heading": "Betalningslösningar för företag, kommuner & privat",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "description": "<h4>💳 Betalningsalternativ via Svea</h4><ul><li>✔️ Kortbetalning – Visa & Mastercard</li><li>✔️ Swish</li><li>✔️ Faktura 30 dagar – gäller <strong>företag, privatpersoner och kommuner</strong></li><li>✔️ Delbetalning & Svea Konto</li><li>✔️ E-faktura till offentlig sektor</li></ul><p>Alla betalningar hanteras säkert via <strong>Svea Payments</strong>.</p>",
+            "show_payment_icons": false,
+            "show_below_product_media": true
+          }
+        },
+        "divider_pPz3Kw": {
+          "type": "divider",
+          "settings": {
+            "show_below_product_media": false
+          }
+        },
+        "custom_liquid_BVUF6N": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Wrapper div for both elements -->\n<div style=\"display: flex; justify-content: center; align-items: center; margin: 0; padding: 0; flex-wrap: wrap;\">\n  <!-- TrustBox widget - Mini -->\n  <div class=\"trustpilot-widget\" data-locale=\"sv-SE\" data-template-id=\"53aa8807dec7e10d38f59f32\" data-businessunit-id=\"66d96778fee7b0c8732ee0a9\" data-style-height=\"150px\" data-style-width=\"100%\" style=\"margin: 0; padding: 0;\">\n    <a href=\"https://se.trustpilot.com/review/totallager.se\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n  </div>\n  <!-- Svea Faktura Image -->\n  <div style=\"margin: 0; padding: 0;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0838/6029/1927/files/Svea_faktura_bild.png?v=1747209896\" alt=\"Svea Faktura\" style=\"max-width: 300px; height: auto;\" />\n  </div>\n</div>\n\n<!-- Media Query for mobile -->\n<style>\n  @media (max-width: 768px) {\n    .trustpilot-widget, .trustpilot-widget a {\n      display: block;\n      width: 100%; /* Gör så att Trustpilot-widgeten tar upp hela bredden */\n    }\n    \n    .trustpilot-widget + div {\n      margin-top: 10px; /* Lägger till mellanrum mellan Trustpilot-widgeten och Svea-bilden */\n    }\n\n    /* Ser till att svea-faktura-bilden också tar upp hela bredden på mobil */\n    .trustpilot-widget + div img {\n      max-width: 100%;\n      height: auto;\n    }\n\n    /* Byt till vertikal layout */\n    .trustpilot-widget, .trustpilot-widget + div {\n      display: block; /* Staplar elementen under varandra */\n    }\n  }\n</style>"
+          }
+        },
+        "sticky_atc_bar_7HgNgP": {
+          "type": "sticky-atc-bar",
+          "settings": {
+            "visibility": "all",
+            "style": "standard",
+            "container": "full",
+            "show_atc_button": true,
+            "show_dynamic_checkout_buttons": false,
+            "show_quantity": true
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "title",
+        "meta",
+        "price",
+        "icon_with_text",
+        "shipping_PtMMxw",
+        "inventory",
+        "variant_picker",
+        "buy_buttons",
+        "icon_with_text_UAYgQU",
+        "complementary",
+        "description",
+        "pickup_availability",
+        "promotion_alert_L7ipQp",
+        "payment_info",
+        "divider_pPz3Kw",
+        "custom_liquid_BVUF6N",
+        "sticky_atc_bar_7HgNgP"
+      ],
+      "custom_css": [
+        "@media (min-width: 1280px) {.product {padding-inline: 5rem; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "use_color_scheme_in_container": false,
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "gallery_layout": "vertical-carousel",
+        "mobile_thumbnails": "show",
+        "show_image_border": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Liknande produkter",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "limit": 6,
+        "columns": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "multicolumn_Mxt4d3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ppme79": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_2.svg",
+            "title": "Orderbekräftelse",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "text": "<p>Så fort du har lagt din order skickar vi en orderbekräftelse till din e-post. Där kan du se alla detaljer för din beställning.</p>",
+            "text_size": "text-sm",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "plus"
+          }
+        },
+        "column_6eYcFq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Packning_totallager.jpg",
+            "title": "Plockning & Packning",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "text": "<p>Din beställning plockas noggrant från vårt lager och packas omsorgsfullt för att säkerställa att allt kommer fram i perfekt skick.</p>",
+            "text_size": "text-sm",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_6mMR7m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lastbil_totallager.jpg",
+            "title": "Leverans på väg",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "text": "<p>Vi skickar din order med vårt leveransföretag. Du får ett spårningsnummer så att du kan följa paketets resa hela vägen till dig.</p>",
+            "text_size": "text-sm",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_Lix6qc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/leverans_totallager.jpg",
+            "title": "Paketet levereras till dig",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "text": "<p>Paketet levereras till din angivna adress. Om du inte är hemma kan det lämnas hos en granne eller på närmaste ombud, beroende på leveransvillkoren.</p>",
+            "text_size": "text-sm",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_ppme79",
+        "column_6eYcFq",
+        "column_6mMR7m",
+        "column_Lix6qc"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "VAD HÄNDER NÄR DU LÄGGER DIN ORDER?",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "content_alignment": "left",
+        "show_col_count": true,
+        "show_image": true,
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_g8CBGV": {
+      "type": "image-with-text",
+      "blocks": {
+        "badge_6fHJDy": {
+          "type": "badge",
+          "settings": {
+            "color_scheme": "",
+            "text": "TOTALLAGER - Vilka är vi på Totallager? -",
+            "image": "shopify://shop_images/Untitled_design_3.png",
+            "position_mobile": "right"
+          }
+        },
+        "subheading_x44Cy8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_mRRCFX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vilka är vi på Totallager?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_RFkbQb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Totallager.se </strong>grundades i Värnamo av två barndomsvänner med en tydlig vision – att göra det enklare för företag att köpa arbetsplatsutrustning med rätt kvalitet, till rätt pris.</p><p>Vi har rötterna i småländskt entreprenörskap och en stark tro på ärlig service, snabba leveranser och ett brett sortiment som möter arbetsvardagens behov.</p><p>När du handlar hos oss får du inte bara bra produkter, du får ett engagerat team som tar hand om din beställning från första klick till leverans.</p><p><br/><br/></p>",
+            "subtext_color": true
+          }
+        },
+        "button_JqaJtN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakta oss",
+            "button_link": "shopify://pages/kontakt",
+            "button_style": "btn--secondary",
+            "button_icon": "chat"
+          }
+        }
+      },
+      "block_order": [
+        "badge_6fHJDy",
+        "subheading_x44Cy8",
+        "heading_mRRCFX",
+        "text_RFkbQb",
+        "button_JqaJtN"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design_98d62c1e-13d4-41aa-8cc7-f2955cc3258d.svg",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "testimonials_8JHr3L": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_dhi3Xf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "image": "shopify://shop_images/gekas-logo.svg",
+            "heading": "Testimonials",
+            "text": "<p>“De gånger vi handlat hos Totallager har vi fått snabb och korrekt service. Det i kombination med bra pris avgjorde för vår del.”</p>",
+            "author": "Jonas Levenholt",
+            "bio": "Gekås Ullared AB",
+            "product": ""
+          }
+        },
+        "testimonial_D7Mq7i": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "image": "shopify://shop_images/gjuteritekniklogo.png",
+            "heading": "Testimonials",
+            "text": "<p>“Vi uppskattar den flexibilitet som Totallager möter oss som kund med. Att veta att det som är bestämt också genomförs enligt plan utan krångel känns tryggt.”</p>",
+            "author": "Jonas Abrahamsson",
+            "bio": "Gjuteriteknik AB",
+            "product": ""
+          }
+        },
+        "testimonial_33tAjm": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>“Add customer reviews and testimonials to showcase your store’s happy customers.”</p>",
+            "author": "Author Name",
+            "bio": "Author Bio",
+            "product": ""
+          }
+        },
+        "testimonial_dDRMwy": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>“Add customer reviews and testimonials to showcase your store’s happy customers.”</p>",
+            "author": "Author Name",
+            "bio": "Author Bio",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_dhi3Xf",
+        "testimonial_D7Mq7i",
+        "testimonial_33tAjm",
+        "testimonial_dDRMwy"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-inverse",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Testimonials",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "layout": "standard",
+        "card_color_scheme": "",
+        "card_content_color_scheme": "",
+        "card_image_ratio": "adapt",
+        "card_heading_size": "h4",
+        "card_text_size": "text-base",
+        "author_info_layout": "vertical",
+        "card_trigger_behavior": "click",
+        "show_image": true,
+        "show_author_image": true,
+        "columns_desktop": 4,
+        "column_gap": "extra-small",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "17501451766e7dc95a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_KeANLz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_KeANLz"
+      ],
+      "settings": {
+        "include_margins": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "contact_form_6qMADi": {
+      "type": "contact-form",
+      "blocks": {
+        "custom_field_3XHj73": {
+          "type": "custom_field",
+          "settings": {
+            "field_type": "phone",
+            "heading": "Phone",
+            "placeholder": "",
+            "required": false,
+            "full_width": true,
+            "select_options": "",
+            "checkbox_checked_value": "Yes",
+            "checkbox_uncheck_value": "No",
+            "radio_options": ""
+          }
+        }
+      },
+      "block_order": [
+        "custom_field_3XHj73"
+      ],
+      "name": "t:sections.contact-form.name",
+      "settings": {
+        "container": "fixed",
+        "section_color_scheme": "",
+        "heading": "Vill du få offert på dina produkter?",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "related-products",
+    "multicolumn_Mxt4d3",
+    "image_with_text_g8CBGV",
+    "testimonials_8JHr3L",
+    "17501451766e7dc95a",
+    "contact_form_6qMADi"
+  ]
+}
