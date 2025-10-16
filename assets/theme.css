@@ -7602,6 +7602,16 @@ body:not(.header-pinned) .header-scrolled .header {
   color: rgb(var(--color-foreground));
   white-space: nowrap;
 }
+.breadcrumbs--home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.breadcrumbs--home .icon-home {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: rgb(var(--color-foreground));
+}
 .breadcrumbs--sep {
   display: block;
   width: 0.1rem;

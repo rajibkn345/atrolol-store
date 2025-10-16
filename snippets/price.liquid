@@ -37,13 +37,13 @@
   endif
 
   assign available = target.available | default: false
-  assign money_price = price | money
-  assign money_price_min = price_min | money
-  assign money_price_max = price_max | money
+  assign money_price = price | money | remove: '.00' | remove: ',00'
+  assign money_price_min = price_min | money | remove: '.00' | remove: ',00'
+  assign money_price_max = price_max | money | remove: '.00' | remove: ',00'
   if settings.currency_code_enabled
-    assign money_price = price | money_with_currency
-    assign money_price_min = price_min | money_with_currency
-    assign money_price_max = price_max | money_with_currency
+    assign money_price = price | money_with_currency | remove: '.00' | remove: ',00'
+    assign money_price_min = price_min | money_with_currency | remove: '.00' | remove: ',00'
+    assign money_price_max = price_max | money_with_currency | remove: '.00' | remove: ',00'
   endif
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
@@ -62,7 +62,7 @@
   data-base-compare-price="{% if compare_at_price > 0 %}{{ compare_at_price | divided_by: 100.0 | round: 2 }}{% endif %}"
   data-vat-free="{% if target.taxable == false %}true{% else %}false{% endif %}"
   data-original-price="{{ money_price }}"
-  data-original-compare="{% if compare_at_price > 0 %}{% if settings.currency_code_enabled %}{{ compare_at_price | money_with_currency }}{% else %}{{ compare_at_price | money }}{% endif %}{% endif %}"
+  data-original-compare="{% if compare_at_price > 0 %}{% if settings.currency_code_enabled %}{{ compare_at_price | money_with_currency | remove: '.00' | remove: ',00' }}{% else %}{{ compare_at_price | money | remove: '.00' | remove: ',00' }}{% endif %}{% endif %}"
 >
   {%- comment -%}
     Explanation of description list:
@@ -95,9 +95,9 @@
       <span class="f-price-item f-price-item--regular">
         <s>
           {% if settings.currency_code_enabled %}
-            {{ compare_at_price | money_with_currency }}
+            {{ compare_at_price | money_with_currency | remove: '.00' | remove: ',00' }}
           {% else %}
-            {{ compare_at_price | money }}
+            {{ compare_at_price | money | remove: '.00' | remove: ',00' }}
           {% endif %}
         </s>
         <span class="vat-label-pp">exkl. moms</span>
@@ -120,7 +120,7 @@
             {%- endif -%}
           </span>
       {%- endcapture -%}
-      <span data-unit-price>{{ selected_variant.unit_price | money }}</span>
+      <span data-unit-price>{{ selected_variant.unit_price | money | remove: '.00' | remove: ',00' }}</span>
       {{- unit_price_separator -}}
       {{- unit_price_base_unit -}}
     </div>

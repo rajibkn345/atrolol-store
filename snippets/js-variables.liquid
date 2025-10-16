@@ -1,7 +1,7 @@
 {% liquid
-  assign money_format = shop.money_format
+  assign money_format = shop.money_format | replace: '{{amount}}', '{{amount_no_decimals}}' | replace: '{{amount_with_comma_separator}}', '{{amount_no_decimals_with_comma_separator}}' | replace: '{{amount_with_apostrophe_separator}}', '{{amount_no_decimals}}'
   if settings.currency_code_enabled
-    assign money_format = shop.money_with_currency_format | strip_html
+    assign money_format = shop.money_with_currency_format | strip_html | replace: '{{amount}}', '{{amount_no_decimals}}' | replace: '{{amount_with_comma_separator}}', '{{amount_no_decimals_with_comma_separator}}' | replace: '{{amount_with_apostrophe_separator}}', '{{amount_no_decimals}}'
   endif
 %}
 <script>

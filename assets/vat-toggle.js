@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const priceDisplays = container.querySelectorAll('.vat-price-display');
             
             priceDisplays.forEach((display) => {
-              display.innerHTML = `${newPrice.toFixed(2)} SEK <span class="vat-label-pp">${vatLabel}</span>`;
+              display.innerHTML = `${Math.round(newPrice)} SEK <span class="vat-label-pp">${vatLabel}</span>`;
               totalUpdated++;
             });
             
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 
                 compareElements.forEach((compareEl) => {
-                  compareEl.innerHTML = `${newComparePrice.toFixed(2)} SEK`;
+                  compareEl.innerHTML = `${Math.round(newComparePrice)} SEK`;
                 });
               }
             }
@@ -209,12 +209,12 @@ document.addEventListener("DOMContentLoaded", function () {
         
         elements.forEach((totalElement) => {
           if (totalElement.classList.contains('vat-price-display')) {
-            totalElement.innerHTML = `${calculatedTotal.toFixed(2)} SEK <span class="vat-label-pp">${vatLabel}</span>`;
+            totalElement.innerHTML = `${Math.round(calculatedTotal)} SEK <span class="vat-label-pp">${vatLabel}</span>`;
             totalElementsUpdated++;
           } else {
             const priceDisplay = totalElement.querySelector('.vat-price-display');
             if (priceDisplay) {
-              priceDisplay.innerHTML = `${calculatedTotal.toFixed(2)} SEK <span class="vat-label-pp">${vatLabel}</span>`;
+              priceDisplay.innerHTML = `${Math.round(calculatedTotal)} SEK <span class="vat-label-pp">${vatLabel}</span>`;
               totalElementsUpdated++;
             }
           }

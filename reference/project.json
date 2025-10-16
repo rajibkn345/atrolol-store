@@ -1,0 +1,24 @@
+{
+  "project": "Atrolol Store",
+  "type": "Shopify Theme",
+  "description": "Custom Shopify theme for Totallager Sweden AB e-commerce store. Features include product catalogs, collections, lookbook galleries, comparison tables, product bundles, countdown timers, and VAT toggle functionality. Built with Liquid templating, vanilla JavaScript, and CSS.",
+  "store": "da3a9b-ba.myshopify.com",
+  "repository": "https://github.com/rajibkn345/atrolol-store.git",
+  "key_features": [
+    "Multi-language support (EN, DE, ES, FR, IT, SV, VI)",
+    "Product comparison and quick view",
+    "Lookbook and image galleries",
+    "Product bundles and recommendations",
+    "VAT price toggle",
+    "Responsive design with mobile-first approach",
+    "Collection tabs and filtering",
+    "Countdown timers and flash sales"
+  ],
+  "tech_stack": {
+    "platform": "Shopify",
+    "templating": "Liquid",
+    "javascript": "Vanilla JS (ES6+)",
+    "styling": "CSS3",
+    "tools": "Shopify CLI"
+  }
+}

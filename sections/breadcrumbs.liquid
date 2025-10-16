@@ -11,7 +11,9 @@
       role="navigation"
       aria-label="breadcrumbs"
     >
-      <a href="{{ routes.root_url }}" title="Home" class="reversed-link">{{ 'general.breadcrumbs.home' | t }}</a>
+      <a href="{{ routes.root_url }}" title="{{ 'general.breadcrumbs.home' | t }}" class="reversed-link breadcrumbs--home" aria-label="{{ 'general.breadcrumbs.home' | t }}">
+        {%- render 'icon-home', size: 'small' -%}
+      </a>
       {%- if template contains 'page' -%}
         <span aria-hidden="true" class="breadcrumbs--sep"></span>
         <span class="breadcrumbs--last text-subtext">{{ page.title }}</span>
