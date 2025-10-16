@@ -75,27 +75,57 @@
 }
 
 @media (max-width: 767px) {
-  #c-vat-wrap {
-    padding-inline: 0;
-    margin-right: 12px;
-  }
+ #c-vat-wrap {
+   padding-inline: 0;
+   margin-right: 12px;
+ }
 
-  #js-vat-btn {
-    width: 55px;
-    height: 28px;
-    font-size: 0;
-  }
+ .cw-switch {
+   width: 80px;
+   height: 30px;
+ }
 
-  .cw-slider:before {
-    transform: translateX(22px);
-    content: "moms";
-    font-size: 9px;
-    color: black;
-    line-height: 26px;
-    width: 22px;
-    height: 20px;
-    font-weight: 500;
-  }
+ .cw-slider {
+   font-size: 8px;
+   line-height: 30px;
+   font-weight: 600;
+   letter-spacing: 0.2px;
+   border-radius: 20px;
+ }
+
+ .cw-slider:before {
+   height: 22px;
+   width: 22px;
+   left: 4px;
+   bottom: 4px;
+   border-radius: 20px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+   transform: translateX(50px);
+ }
+
+ .global-vat-exc .cw-slider {
+   background-color: #f0f0f0;
+   color: #555;
+   padding-left: 26px;
+   padding-right: 8px;
+   border-radius: 20px;
+ }
+
+ .global-vat-exc .cw-slider:before {
+   transform: translateX(0px);
+ }
+
+ .global-vat-inc .cw-slider {
+   background: #1e4355;
+   color: white;
+   padding-right: 26px;
+   padding-left: 8px;
+   border-radius: 20px;
+ }
+
+ .global-vat-inc .cw-slider:before {
+   transform: translateX(50px);
+ }
 }
 
 /* VAT Label Styling */

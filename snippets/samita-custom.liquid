@@ -1,0 +1,58 @@
+<script>
+    window.Samita = window.Samita || {}
+    Samita.Wholesale = Samita.Wholesale || {}
+    Samita.Wholesale.overrideOptions = Samita.Wholesale.overrideOptions || {}
+    Samita.Wholesale.overrideOptions.selectors = Samita.Wholesale.overrideOptions.selectors || {}
+    Samita.Wholesale.overrideOptions.selectors.product = {
+        "element" : [ ".product" ],
+        "form": [ "[samitaWS-product-form]",".main-product-form" ],
+        "price": [ "#ProductPrice-product-template", ".f-price__regular", ".grid-product__price", "#ProductPrice", "#single_product__price-template-product", ".product-price", ".product__price—reg", "#productPrice-product-template", ".product__current-price", ".product-thumb-caption-price-current", ".product-item-caption-price-current", ".grid-product__price,.product__price", "span.price", "span.product-price", ".productitem--price", ".product-pricing", "div.price", "span.money", ".product-item__price", ".product-list-item-price", "p.price", ".product-meta__prices", "div.product-price", "span#price", ".price.money", "h3.price", "a.price", ".price-area", ".product-item-price", ".pricearea", ".collectionGrid .collectionBlock-info > p", "#ComparePrice", ".product--price-wrapper", ".product-page--price-wrapper", ".color--shop-accent.font-size--s.t--meta.f--main", ".ComparePrice",".ProductPrice", ".prodThumb .title span:last-child", ".price", ".product-single__price-product-template", ".product-info-price", ".price-money", ".prod-price", "#price-field", ".product-grid--price", ".prices,.pricing", "#product-price", ".money-styling", ".compare-at-price", ".product-item--price", ".card__price", ".product-card__price", ".product-price__price", ".product-item__price-wrapper", ".product-single__price", ".grid-product__price-wrap", "a.grid-link p.grid-link__meta", ".product__prices", "#comparePrice-product-template", "dl[class*=\"price\"]", "div[class*=\"price\"]", ".gl-card-pricing", ".ga-product_price-container" ],
+        "unitPrice": "[samitaWS-product-unit-price], .f-price__regular, #product-price,.product__price, .price:not(.price--on-sale) .price__regular .price-item--regular, .price.price--on-sale .price__sale .price-item--sale, #single_product__price-template-product",
+    }
+    Samita.Wholesale.overrideOptions.selectors.collection = {
+        "productLink": "[samitaWS-collection-product-link], .product-card__title > a",
+        "price": ["[samitaWS-collection-product-price]",".price .f-price__regular"],
+        "unitPrice": "[samitaWS-product-unit-price], .price .f-price__regular"
+    }
+    Samita.Wholesale.overrideOptions.selectors.cart = {
+        "form": [
+            "[samitaWS-checkout-form]",
+            ".cart"
+        ],
+        "page": [{
+            "lineItem": {
+                "key": ".samitaWS-cart-line-item-key, tbody .cart-item",
+                "price": "[samitaWS-cart-product-main-price], .cart-item__prices",
+                "unitPrice": "[samitaWS-cart-line-item-unit-price], .cart-item__prices",
+                "priceEnd": "[samitaWS-cart-product-price-end], .cart-item__total span",
+                "totalPrice": "[samitaWS-cart-line-item-total-price], .cart-item__total span"
+            },
+            "subtotalPrice": "[samitaWS-cart-subtotal-price], .totals__subtotal-value",
+            "checkoutBtn": "form[action*=\"/cart\"] [type=\"submit\"][name=\"checkout\"], .cart__footer--buttons [type=\"submit\"]",
+        }],
+         "drawerForm": [
+            "[samitaWS-drawer-form]",
+            "#CartDrawer"
+        ],
+        "drawer": [
+            {
+                "lineItem": {
+                    "key": ".samitaWS-drawer-line-item-key, li.cart-item",
+                    "price": "[samitaWS-drawer-product-main-price], .cart-item__prices",
+                    "unitPrice": "[samitaWS-drawer-line-item-unit-price], .cart-item__prices",
+                    "priceEnd": "[samitaWS-cart-product-price-end], .cart-item__totals .cart-item__price-wrapper .price.price--end",
+                    "totalPrice": "[samitaWS-drawer-line-item-total-price], .cart-item__price-wrapper .price.price--end"
+                },
+                "subtotalPrice": "[samitaWS-drawer-line-item-subtotal-price], .totals__subtotal-value",
+                "checkoutBtn": "[samitaWS-drawer-checkout-btn], #CartDrawer-Checkout, form[action*=\"/cart\"] [type=\"submit\"][name=\"checkout\"], form[action*=\"/cart\"] [name=\"checkout\"]"
+            }
+        ],
+    }
+</script>
+
+
+<style>
+    .samitaWS-account {
+        display: none !important;
+    }
+</style>

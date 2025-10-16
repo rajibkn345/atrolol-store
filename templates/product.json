@@ -66,6 +66,21 @@
             "heading_3": ""
           }
         },
+        "icon_with_text_UAYgQU": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "arrow-up-left",
+            "heading_1": "30 dagar returrätt",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/Flag_of_Sweden_svg.webp",
+            "heading_2": "Svensk support & trygg e-handel",
+            "icon_3": "tag",
+            "heading_3": "5 års garanti"
+          }
+        },
         "shipping_PtMMxw": {
           "type": "shipping",
           "settings": {
@@ -100,21 +115,6 @@
             "show_quantity_selector": true,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "icon_with_text_UAYgQU": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "title_font": "body",
-            "title_size": "text-base",
-            "icon_1": "arrow-up-left",
-            "heading_1": "30 dagar returrätt",
-            "icon_2": "none",
-            "image_2": "shopify://shop_images/Flag_of_Sweden_svg.webp",
-            "heading_2": "Svensk support & trygg e-handel",
-            "icon_3": "check",
-            "heading_3": "5 års garanti"
           }
         },
         "complementary": {
@@ -194,11 +194,11 @@
         "meta",
         "price",
         "icon_with_text",
+        "icon_with_text_UAYgQU",
         "shipping_PtMMxw",
         "inventory",
         "variant_picker",
         "buy_buttons",
-        "icon_with_text_UAYgQU",
         "complementary",
         "description",
         "pickup_availability",
@@ -254,6 +254,28 @@
         "padding_bottom": 30,
         "show_section_divider": false,
         "divider_width": "fixed"
+      }
+    },
+    "17501451766e7dc95a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_KeANLz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_KeANLz"
+      ],
+      "settings": {
+        "include_margins": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn_Mxt4d3": {
@@ -533,23 +555,6 @@
         "divider_width": "fixed"
       }
     },
-    "17501451766e7dc95a": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_KeANLz": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_KeANLz"
-      ],
-      "settings": {
-        "include_margins": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "contact_form_6qMADi": {
       "type": "contact-form",
       "blocks": {
@@ -592,10 +597,10 @@
     "breadcrumbs",
     "main",
     "related-products",
+    "17501451766e7dc95a",
     "multicolumn_Mxt4d3",
     "image_with_text_g8CBGV",
     "testimonials_8JHr3L",
-    "17501451766e7dc95a",
     "contact_form_6qMADi"
   ]
 }

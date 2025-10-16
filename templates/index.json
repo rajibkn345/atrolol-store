@@ -68,7 +68,7 @@
           "settings": {
             "collection": "kladskap",
             "image": "shopify://shop_images/SittbankDubbelsektion1000-2000mmLjusgra3.png",
-            "title": "Klädförvaring"
+            "title": "Klädskåp"
           }
         },
         "featured_collection_J6V8fx": {
@@ -127,7 +127,17 @@
         "button_link": "",
         "button_style": "btn--underline",
         "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "1/1",
+        "card_image_width": "medium",
+        "card_image_padding": "none",
         "rounded_card_image": false,
+        "mobile_layout": "vertical",
+        "carousel_item_size": "auto",
+        "columns_desktop": 6,
+        "carousel_control_color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 20,
         "show_section_divider": false,
@@ -474,6 +484,93 @@
         "divider_width": "fixed"
       }
     },
+    "brand_logos_L7X3Ry": {
+      "type": "brand-logos",
+      "blocks": {
+        "logo_PnYqqU": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/intra_materialhantering.png",
+            "image_link": ""
+          }
+        },
+        "logo_YpAti9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Kongamek_svart_vitt.png",
+            "image_link": ""
+          }
+        },
+        "logo_pQHr4L": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Skeppshultstegen.png",
+            "image_link": ""
+          }
+        },
+        "logo_ACNPht": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Lanab.png",
+            "image_link": ""
+          }
+        },
+        "logo_Tm8Nyb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Safety_first.png",
+            "image_link": ""
+          }
+        },
+        "logo_LbaGHe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Pekuma.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_PnYqqU",
+        "logo_YpAti9",
+        "logo_pQHr4L",
+        "logo_ACNPht",
+        "logo_Tm8Nyb",
+        "logo_LbaGHe"
+      ],
+      "name": "t:sections.brand-logos.presets",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Några varumärken som finns hos oss.",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-sm",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "image_padding": "none",
+        "image_width": "full",
+        "columns_desktop": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_bordered": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "favorite_products_6Tg9Pn": {
       "type": "favorite-products",
       "blocks": {
@@ -761,6 +858,7 @@
     "collection_list_slider_6qbNfj",
     "slideshow_q3U4Jn",
     "banners_with_categories_jCekLr",
+    "brand_logos_L7X3Ry",
     "favorite_products_6Tg9Pn",
     "collection_cards_HDmBi9",
     "image_with_text_RfLBdr",

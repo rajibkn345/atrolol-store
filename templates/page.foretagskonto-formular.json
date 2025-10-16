@@ -78,6 +78,7 @@
         "column_JaeEBi",
         "column_jtrqK3"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-feature.presets",
       "settings": {
         "container": "fixed",
@@ -123,6 +124,7 @@
       "block_order": [
         "custom_field_Q9AafP"
       ],
+      "disabled": true,
       "name": "t:sections.contact-form.name",
       "settings": {
         "container": "fixed",

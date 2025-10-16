@@ -12,7 +12,7 @@
     "main": {
       "type": "main-addresses",
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-inverse",
         "padding_top": 100,
         "padding_bottom": 100
       }

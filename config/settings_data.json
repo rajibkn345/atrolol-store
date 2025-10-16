@@ -16,7 +16,7 @@
     "logo_width_mobile": 130,
     "favicon": "shopify://shop_images/Untitled_design_3.png",
     "color_badge_sale": "#d85c1e",
-    "color_badge_hot": "#1d349a",
+    "color_badge_hot": "#d85c1e",
     "color_badge_new": "#0d8756",
     "color_cart_bubble": "#d85c1e",
     "type_body_font": "instrument_sans_n5",
@@ -57,6 +57,7 @@
     "pcard_sale_badge_type": "show_amount",
     "pcard_enable_color_swatches": true,
     "pcard_maximum_swatches_to_show": 4,
+    "product_hot_tags": "🌟Populär🌟",
     "color_swatch_trigger": "Färg",
     "swatch_list": "Röd:#ff0000\nBlå: #004aad\nGrå: #b6b6b6\nSvart: #1e1d1d\nMörkgrå: #404040\nGul: #ffcf00\nGrön: #269200\nSvart: #1b1b1b\nBrun: #845025\nGreige: #ccc3b9\nElförzinkad: #D3D3D3",
     "quick_view_type": "modal",
@@ -64,7 +65,11 @@
     "cart_icon": "shopping-cart",
     "cart_style": "solid",
     "free_shipping_minimum_amount": "15000",
-    "cart_empty_message": "<p>Not sure where to start? Try these collections:</p>",
+    "cart_empty_message": "<p>Osäker på var du ska börja? Prova dessa kategorier:</p>",
+    "collection_list": [
+      "lager-och-industri",
+      "verkstad"
+    ],
     "collection_card_color_scheme": "scheme-1",
     "collection_image_ratio": "4/3",
     "social_facebook_link": "https://www.facebook.com/TotallagerAB/",
@@ -102,13 +107,32 @@
         "disabled": false,
         "settings": {}
       },
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
         "settings": {}
       },
-      "15351435345818755577": {
-        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#6a6a6a",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
+      },
+      "9513407616245537438": {
+        "type": "shopify://apps/sami-wholesale/blocks/app-embed-block/799b9db0-2c2b-4b20-8675-98acd123fbb2",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       }

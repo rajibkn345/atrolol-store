@@ -186,12 +186,33 @@
             "open_default": false,
             "show_divider": false
           }
+        },
+        "image_text_C3MUjE": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 25,
+            "layout": "image_top",
+            "heading": "",
+            "heading_size": "h6",
+            "image_width": 100,
+            "image_width_mobile": 100,
+            "overlay_opacity": 70,
+            "text": "<p>Organisationsnummer:</p><p>559188-6170</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "color_scheme": "scheme-inverse",
+            "content_alignment": "left",
+            "open_default": false,
+            "show_divider": false
+          }
         }
       },
       "block_order": [
         "newsletter_3qCrWc",
         "menu_6cjHfA",
-        "contact_information_trbbP8"
+        "contact_information_trbbP8",
+        "image_text_C3MUjE"
       ],
       "custom_css": [],
       "settings": {
@@ -203,7 +224,9 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
+        "footer_layout": "standard",
         "footer_bottom_menu": "footer",
+        "show_sperator_line": false,
         "show_section_divider": true,
         "divider_width": "fixed",
         "padding_top": 40,
