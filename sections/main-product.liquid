@@ -128,6 +128,10 @@
     {{ product | structured_data }}
   </script>
 </product-info>
+
+{%- comment -%} Quote Modal {%- endcomment -%}
+{%- render 'quote-modal', product: product -%}
+
 {%- assign block_atc_bar = section.blocks | where: 'type', 'sticky-atc-bar' | first -%}
 {%- if block_atc_bar != blank -%}
   {%- render 'sticky-atc-bar', block: block_atc_bar, product_form_id: product_form_id -%}

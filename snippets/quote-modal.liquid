@@ -1,0 +1,146 @@
+{% comment %}
+  Renders quote request modal with Shopify contact form.
+  Accepts:
+  - product: {Object} product object.
+
+  Usage:
+  {% render 'quote-modal', product: product %}
+{% endcomment %}
+
+<div id="quote-modal" class="quote-modal" role="dialog" aria-modal="true" aria-labelledby="quote-modal-title" hidden>
+  <div class="quote-modal__overlay" data-quote-modal-close></div>
+
+  <div class="quote-modal__content">
+    <div class="quote-modal__card">
+      {%- comment -%} Close Button {%- endcomment -%}
+      <button type="button" class="quote-modal__close" data-quote-modal-close aria-label="Stäng">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+{%- comment -%} Form Container {%- endcomment -%}
+      <div class="quote-modal__form-container" data-quote-form-container>
+        <h2 id="quote-modal-title" class="quote-modal__title">
+          Jag är intresserad av den här maskinen
+        </h2>
+        <p class="quote-modal__subtitle">
+          Fyll i dina uppgifter så hör vi snabbt av oss med ett erbjudande!
+        </p>
+
+        {%- comment -%} Success Message {%- endcomment -%}
+        <div class="quote-modal__message quote-modal__message--success" data-quote-success-message hidden>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="quote-modal__message-icon">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+            <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="quote-modal__message-text">
+            Tack! Ditt meddelande har skickats. Vi återkommer så snart som möjligt.
+          </p>
+        </div>
+
+        {%- comment -%} Error Message {%- endcomment -%}
+        <div class="quote-modal__message quote-modal__message--error" data-quote-error-message hidden>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="quote-modal__message-icon">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 8V12M12 16H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="quote-modal__message-text" data-error-text>
+            Ett fel uppstod. Vänligen försök igen.
+          </p>
+        </div>
+
+        {%- comment -%} Shopify Contact Form {%- endcomment -%}
+        {% form 'contact', id: 'quote-contact-form', class: 'quote-modal__form' %}
+          {%- if form.errors -%}
+            <div class="quote-modal__error">
+              <p>{{ form.errors | default_errors }}</p>
+            </div>
+          {%- endif -%}
+
+          {%- comment -%} Hidden field for subject {%- endcomment -%}
+          <input type="hidden" name="contact[subject]" value="Förfrågan om offert" data-quote-subject>
+
+          {%- comment -%} Product Name Field (read-only) {%- endcomment -%}
+          <div class="quote-modal__field">
+            <input
+              type="text"
+              id="quote-product-name"
+              name="contact[Produkt]"
+              class="quote-modal__input"
+              readonly
+              data-quote-product-input
+              required
+            >
+          </div>
+
+          {%- comment -%} Phone Field {%- endcomment -%}
+          <div class="quote-modal__field">
+            <input
+              type="tel"
+              id="quote-phone"
+              name="contact[Telefon]"
+              class="quote-modal__input"
+              placeholder="Telefon"
+              required
+              data-quote-phone
+            >
+            <span class="quote-modal__error-message" data-error-phone hidden>Vänligen ange ett telefonnummer</span>
+          </div>
+
+          {%- comment -%} Email Field {%- endcomment -%}
+          <div class="quote-modal__field">
+            <input
+              type="email"
+              id="quote-email"
+              name="contact[email]"
+              class="quote-modal__input"
+              placeholder="E-post"
+              required
+              data-quote-email
+            >
+            <span class="quote-modal__error-message" data-error-email hidden>Vänligen ange en giltig e-postadress</span>
+          </div>
+
+          {%- comment -%} Hidden body field with product details {%- endcomment -%}
+          <textarea name="contact[body]" style="display: none;" data-quote-body></textarea>
+
+          {%- comment -%} GDPR Checkbox {%- endcomment -%}
+          <div class="quote-modal__field quote-modal__checkbox-field">
+            <label class="quote-modal__checkbox-label">
+              <input
+                type="checkbox"
+                name="contact[gdpr_consent]"
+                class="quote-modal__checkbox"
+                required
+                data-quote-gdpr
+              >
+              <span class="quote-modal__checkbox-text">
+                Jag godkänner att mina personuppgifter behandlas i syfte att kontakta mig.
+                <a href="/pages/privacy-policy" target="_blank" class="quote-modal__link">Läs villkor</a>
+              </span>
+            </label>
+            <span class="quote-modal__error-message" data-error-gdpr hidden>Du måste godkänna villkoren</span>
+          </div>
+
+          {%- comment -%} Submit Button {%- endcomment -%}
+          <button type="submit" class="quote-modal__submit" data-quote-submit>
+            <span class="quote-modal__submit-text" data-submit-text>Jag vill bli kontaktad</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="quote-modal__submit-icon">
+              <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="quote-modal__spinner" data-quote-spinner hidden>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="50" stroke-dashoffset="25" opacity="0.3"/>
+              </svg>
+            </span>
+          </button>
+        {% endform %}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{{ 'quote-modal.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'quote-modal.js' | asset_url }}" defer></script>

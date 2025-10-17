@@ -290,76 +290,91 @@
         </div>
       {%- endif -%}
 
-      <div class="product-form__buttons flex flex-wrap items-end gap-x-2 gap-y-4" id="QuantityForm-{{ section_id }}">
-        {%- if product.quantity_price_breaks_configured? != true -%}
-          {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
-          <div class="product-form__quantity{% unless block.settings.show_quantity_selector %} hidden{% endunless %}">
-            <label class="quantity__label form__label visually-hidden" for="Quantity-{{ section.id }}">
-              <span class="font-body-bolder">{{ 'products.product.quantity.label' | t }}</span>
-            </label>
-            <quantity-input
-              class="quantity"
-              data-section-id="{{ section_id }}"
-              data-product-id="{{ product_id }}"
-            >
-              <button class="quantity__button" name="minus" type="button">
-                <span class="visually-hidden">
-                  {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
-                </span>
-                {% render 'icon-minus' %}
-              </button>
-              <input
-                class="quantity__input"
-                type="number"
-                name="quantity"
-                id="Quantity-{{ section.id }}"
-                data-cart-quantity="{{ cart_qty }}"
-                step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
-                value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                data-quantity-variant-id="{{ product.selected_or_first_available_variant.id }}"
-                data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
-                  data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                  max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                {% endif %}
-                inputmode="numeric"
-                autocomplete="off"
-                form="{{ product_form_id }}"
+      <div class="product-form__buttons" id="QuantityForm-{{ section_id }}">
+        {%- comment -%} First Row: Quantity and Add to Cart Button {%- endcomment -%}
+        <div class="flex flex-wrap items-end gap-x-2 gap-y-4">
+          {%- if product.quantity_price_breaks_configured? != true -%}
+            {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
+            <div class="product-form__quantity{% unless block.settings.show_quantity_selector %} hidden{% endunless %}">
+              <label class="quantity__label form__label visually-hidden" for="Quantity-{{ section.id }}">
+                <span class="font-body-bolder">{{ 'products.product.quantity.label' | t }}</span>
+              </label>
+              <quantity-input
+                class="quantity"
+                data-section-id="{{ section_id }}"
+                data-product-id="{{ product_id }}"
               >
-              <button class="quantity__button" name="plus" type="button">
-                <span class="visually-hidden">
-                  {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
-                </span>
-                {% render 'icon-plus' %}
-              </button>
-            </quantity-input>
-          </div>
-        {%- endif -%}
-        <button
-          id="ProductSubmitButton-{{ section_id }}"
-          type="submit"
-          name="add"
-          class="product-form__submit btn{% if show_dynamic_checkout %} btn--secondary{% else %} btn--primary{% endif %}"
-          {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == nil %}
-            disabled
-          {% endif %}
-        >
-          <span class="btn__text">
-            {%- if product.selected_or_first_available_variant == nil -%}
-              {{ 'products.product.unavailable' | t }}
-            {%- elsif product.selected_or_first_available_variant.available == false
-              or quantity_rule_soldout
-            -%}
-              {{ 'products.product.sold_out' | t }}
-            {%- else -%}
-              {{ 'products.product.add_to_cart' | t }}
-            {%- endif -%}
-          </span>
-          {%- render 'loading-spinner' -%}
-        </button>
+                <button class="quantity__button" name="minus" type="button">
+                  <span class="visually-hidden">
+                    {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+                  </span>
+                  {% render 'icon-minus' %}
+                </button>
+                <input
+                  class="quantity__input"
+                  type="number"
+                  name="quantity"
+                  id="Quantity-{{ section.id }}"
+                  data-cart-quantity="{{ cart_qty }}"
+                  step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                  value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                  data-quantity-variant-id="{{ product.selected_or_first_available_variant.id }}"
+                  data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                  min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                  {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
+                    data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                    max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                  {% endif %}
+                  inputmode="numeric"
+                  autocomplete="off"
+                  form="{{ product_form_id }}"
+                >
+                <button class="quantity__button" name="plus" type="button">
+                  <span class="visually-hidden">
+                    {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                  </span>
+                  {% render 'icon-plus' %}
+                </button>
+              </quantity-input>
+            </div>
+          {%- endif -%}
+          <button
+            id="ProductSubmitButton-{{ section_id }}"
+            type="submit"
+            name="add"
+            class="product-form__submit btn{% if show_dynamic_checkout %} btn--secondary{% else %} btn--primary{% endif %}"
+            {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == nil %}
+              disabled
+            {% endif %}
+          >
+            <span class="btn__text">
+              {%- if product.selected_or_first_available_variant == nil -%}
+                {{ 'products.product.unavailable' | t }}
+              {%- elsif product.selected_or_first_available_variant.available == false
+                or quantity_rule_soldout
+              -%}
+                {{ 'products.product.sold_out' | t }}
+              {%- else -%}
+                {{ 'products.product.add_to_cart' | t }}
+              {%- endif -%}
+            </span>
+            {%- render 'loading-spinner' -%}
+          </button>
+        </div>
+
+        {%- comment -%} Second Row: Quote and Buy Now Buttons (50% each) {%- endcomment -%}
         {%- if show_dynamic_checkout -%}
-          {{ form | payment_button }}
+          <div class="product-form__action-buttons flex gap-2 w-full" style="margin-top: 16px;">
+            {%- render 'quote-button', product: product, section_id: section_id -%}
+            <div class="product-form__payment-button flex-1">
+              {{ form | payment_button }}
+            </div>
+          </div>
+        {%- else -%}
+          {%- comment -%} If no payment button, just show quote button full width {%- endcomment -%}
+          <div style="margin-top: 16px;">
+            {%- render 'quote-button', product: product, section_id: section_id -%}
+          </div>
         {%- endif -%}
       </div>
       <div class="product-form__error-message blocks-radius-md alert alert--error" role="alert" hidden></div>

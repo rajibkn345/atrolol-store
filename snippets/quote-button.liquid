@@ -1,0 +1,25 @@
+{% comment %}
+  Renders quote request button.
+  Accepts:
+  - product: {Object} product object.
+  - section_id: {String} id of section to which this snippet belongs.
+
+  Usage:
+  {% render 'quote-button', product: product, section_id: section.id %}
+{% endcomment %}
+{%- if product != blank -%}
+  <button
+    type="button"
+    class="quote-form__button btn btn--secondary"
+    data-quote-button
+    data-product-id="{{ product.id }}"
+    data-product-title="{{ product.title | escape }}"
+    data-product-url="{{ product.url | within: collection }}"
+    data-section-id="{{ section_id }}"
+    aria-label="Begär offert för {{ product.title }}"
+  >
+    <span class="btn__text">
+      Begär offert
+    </span>
+  </button>
+{%- endif -%}

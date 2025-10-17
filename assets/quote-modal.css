@@ -1,0 +1,414 @@
+/* Quote Modal Styles */
+
+/* Modal Overlay */
+.quote-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.quote-modal:not([hidden]) {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.quote-modal__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+}
+
+/* Modal Content */
+.quote-modal__content {
+  position: relative;
+  z-index: 10;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
+/* Modal Card */
+.quote-modal__card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Close Button */
+.quote-modal__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: #6b7280;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-modal__close:hover {
+  color: #1f2937;
+}
+
+/* Title and Subtitle */
+.quote-modal__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+  padding-right: 40px;
+}
+
+.quote-modal__subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0 0 32px 0;
+  line-height: 1.5;
+}
+
+/* Form */
+.quote-modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.quote-modal__field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Input Fields */
+.quote-modal__input {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 16px;
+  color: #1f2937;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.quote-modal__input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.quote-modal__input::placeholder {
+  color: #9ca3af;
+}
+
+.quote-modal__input[readonly] {
+  background-color: #f9fafb;
+  color: #374151;
+  cursor: default;
+}
+
+.quote-modal__input.error {
+  border-color: #ef4444;
+}
+
+/* Error Messages */
+.quote-modal__error-message {
+  font-size: 13px;
+  color: #ef4444;
+  margin-top: 4px;
+}
+
+.quote-modal__error {
+  padding: 12px 16px;
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  color: #991b1b;
+  font-size: 14px;
+}
+
+/* GDPR Checkbox */
+.quote-modal__checkbox-field {
+  margin-top: 8px;
+}
+
+.quote-modal__checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.quote-modal__checkbox {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: #3b82f6;
+}
+
+.quote-modal__checkbox-text {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.quote-modal__link {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.quote-modal__link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Success and Error Messages */
+.quote-modal__message {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.quote-modal__message:not([hidden]) {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  animation: messageSlideIn 0.4s ease;
+}
+
+@keyframes messageSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quote-modal__message--success {
+  background-color: #f0fdf4;
+  border: 1px solid #86efac;
+  color: #166534;
+}
+
+.quote-modal__message--error {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+.quote-modal__message-icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.quote-modal__message--success .quote-modal__message-icon {
+  color: #10b981;
+}
+
+.quote-modal__message--error .quote-modal__message-icon {
+  color: #ef4444;
+}
+
+.quote-modal__message-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Submit Button */
+.quote-modal__submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 8px;
+}
+
+.quote-modal__submit:hover:not(:disabled) {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.quote-modal__submit:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.quote-modal__submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.quote-modal__submit-icon {
+  transition: transform 0.2s ease;
+}
+
+.quote-modal__submit:hover:not(:disabled) .quote-modal__submit-icon {
+  transform: translateX(4px);
+}
+
+.quote-modal__spinner {
+  display: inline-flex;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Quote Button and Buy Now Button Layout */
+.product-form__action-buttons {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  margin-top: 16px !important;
+}
+
+.product-form__action-buttons .quote-form__button,
+.product-form__action-buttons .product-form__payment-button {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Ensure payment button takes full width within its container */
+.product-form__payment-button .shopify-payment-button,
+.product-form__payment-button .shopify-payment-button__button {
+  width: 100% !important;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .quote-modal__card {
+    padding: 32px 24px;
+  }
+
+  .quote-modal__title {
+    font-size: 20px;
+  }
+
+  .quote-modal__subtitle {
+    font-size: 14px;
+  }
+
+  .quote-modal__input {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+
+  .quote-modal__submit {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+
+  .quote-modal__message {
+    padding: 14px 16px;
+    gap: 10px;
+  }
+
+  .quote-modal__message-text {
+    font-size: 14px;
+  }
+
+  .quote-modal__message-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .product-form__action-buttons {
+    flex-direction: column;
+  }
+
+  .product-form__action-buttons .quote-form__button,
+  .product-form__action-buttons .product-form__payment-button {
+    width: 100%;
+  }
+
+  /* Ensure quote button height matches buy button on mobile */
+  .product-form__action-buttons .quote-form__button.btn {
+    height: var(--buttons-height);
+    min-height: var(--buttons-height);
+  }
+}
+
+/* Prevent body scroll when modal is open */
+body.quote-modal-open {
+  overflow: hidden;
+}
